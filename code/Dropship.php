@@ -26,7 +26,7 @@ class Dropship extends Controller {
 			'Content' => <<<EOM
 <p>Note: usage of these tools is logged.</p>
 <ul>
-	<li><a href='Dropship/install'>Install module</a></li>
+	<li><a href='Dropship/install'>Install module (WARNING: this is only a proof-of-concept)</a></li>
 </ul>
 EOM
 		));
