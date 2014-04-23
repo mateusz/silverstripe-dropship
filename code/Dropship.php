@@ -63,6 +63,10 @@ EOM
 		increase_time_limit_to(0);
 		$moduleName = $data['Name'];
 		$basePath = BASE_PATH;
+
+		echo "This module is a proof of concept and has a horrible shell injection. Delete this line if you really want to use it...";
+		exit;
+
 		echo `cd $basePath && composer require "$moduleName:*"`;
 
 	}
