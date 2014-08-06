@@ -5,6 +5,6 @@
 	"keywords": ["silverstripe", "silly"],
 	"license": "BSD-3-Clause",
 	"require": {
-		"silverstripe/framework": "~3.1",
+		"silverstripe/framework": "~3.1"
 	}
 }
